@@ -3,6 +3,9 @@ baseURL = "https://dinesh578.github.io/portfolio/"
 title = "Port Hugo"
 theme = "port"
 
+##############################################
+canonifyURLs = true
+
 ############################# Plugins ##############################
 
 # CSS Plugins
