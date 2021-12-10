@@ -1,0 +1,47 @@
+########################## hero area ##########################
+hero:
+  title: "I'm Dinesh Reddy"
+
+  # animated text loop
+  occupations:
+    - 'Data Scientist'
+
+
+  # hero background image
+  bg_image: 'images/cnn.gif'
+
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/gus_small.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/dinesh2.jpg'
+  title:
+  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [by email](contact)!
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'Projects'
+  portfolio_list:
+    - enable: true
+      title: project
+      name: Gems Price Prediction
+      image: 'images/portfolio/g.png'
+      url: https://github.com/dinesh578/gem_price_prediction
+      description: This project is about to predict the price of the gemstone effictiontly based on features like (cut type,caret type,color,etc) using regression techinique
+
+    - name: Clustring Online Retail Customers
+      image: 'images/portfolio/clu.png'
+      url: https://github.com/dinesh578/customer_segmentation
+      description: The aim of this project is to segement the Customers based on R(Recency),F(Frequency),M(Monetary) so that the company can target its customers efficiently using clustering techinique.
+    - name: Balls Image Classification Using CNN
+      image: 'images/portfolio/cnt.jpg'
+      url: https://github.com/dinesh578/image_classification
+      description: This project is about to classify the images of the balls using in diffrent sports to play by using CNN(Convolutional Neural Network).
+
+    - name: Text Extraction Using Opencv and Pytesseract
+      image: 'images/portfolio/eee.jpg'
+      url: https://github.com/dinesh578/Opencv_Text_Extraction
+      description: This project is about to extract the text from set of filled form images and store the data in a file automatically.
